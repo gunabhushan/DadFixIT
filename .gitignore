@@ -1,0 +1,93 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.vscode/
+
+# Ignore build outputs
+bin/
+obj/
+out/
+TestResults/
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore .NET Core specific files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.cache
+*.db
+
+# Ignore environment and configuration files
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+appsettings.Local.json
+secrets.json
+.env
+
+# Ignore Rider and Resharper files
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Ignore generated files
+Generated/
+*.g.cs
+*.g.i.cs
+
+# Ignore dependencies
+node_modules/
+
+# Ignore temporary files
+*.bak
+*.swp
+*.swn
+*.swo
+*.tmp
+
+# Ignore Docker files
+docker-compose.override.yml
+*.dockerignore
+
+# Ignore coverage reports
+coverage/
+*.coverage
+
+# Ignore Azure specific files
+Azure/
+.localhistory/
+
+# Ignore lock files and logs
+project.assets.json
+npm-debug.log
+yarn-error.log
+
+# Angular specific ignores
+dist/
+.angular/
+*.angular-cache
+
+# Ignore Angular environment files
+env/
+src/environments/environment.ts
+src/environments/environment.prod.ts
+
+# Ignore npm and Yarn related files
+package-lock.json
+yarn.lock
+
+# Ignore Angular build outputs
+dist/
+coverage/
+
+# Ignore IDE specific files for Angular
+*.log
+.DS_Store
+Thumbs.db

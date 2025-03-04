@@ -1,0 +1,6 @@
+@DadFixIT.Services.Users_HostAddress = http://localhost:5219
+
+GET {{DadFixIT.Services.Users_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

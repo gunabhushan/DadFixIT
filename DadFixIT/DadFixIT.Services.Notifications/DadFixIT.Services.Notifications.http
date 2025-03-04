@@ -1,0 +1,6 @@
+@DadFixIT.Services.Notifications_HostAddress = http://localhost:5208
+
+GET {{DadFixIT.Services.Notifications_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
